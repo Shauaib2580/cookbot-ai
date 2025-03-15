@@ -22,7 +22,7 @@ export default function PromptPage() {
   const [response, setResponse] = useState(null);
   const [cartItems, setCartItems] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
-  const userName = 'Atiqul Islam'; // Replace with dynamic user data if available
+  const userName = 'Shauaib Siddique'; // Replace with dynamic user data if available
   const textareaRef = useRef(null);
   const [isAtTop, setIsAtTop] = useState(false);
   const router = useRouter();
@@ -313,7 +313,7 @@ export default function PromptPage() {
 
             <div>
               <h4 className="text-lg font-semibold mb-3 text-white border-b border-gray-700 pb-2">
-                Chef's Tips
+                Chef&lsquo;s Tips
               </h4>
               <ul className="list-disc pl-5 space-y-1 text-gray-300">
                 {response.tips.map((tip, index) => (
